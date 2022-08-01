@@ -1,0 +1,30 @@
+{
+  "name": "moodlet",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier .  --write"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.0.2",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.5",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vite-plugin-eslint": "^1.7.0",
+    "vue-tsc": "^0.38.4"
+  }
+}
