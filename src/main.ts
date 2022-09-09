@@ -5,7 +5,7 @@ import App from "./App.vue";
 import router from "./router";
 
 import "virtual:windi.css";
-import 'virtual:windi-devtools'
+import "virtual:windi-devtools";
 import "./assets/main.css";
 
 const app = createApp(App);
