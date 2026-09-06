@@ -28,7 +28,7 @@
     "@vue/eslint-config-prettier": "^7.0.0",
     "@vue/eslint-config-typescript": "^11.0.1",
     "@vue/test-utils": "^2.0.2",
-    "@vue/tsconfig": "^0.1.3",
+    "@vue/tsconfig": "^0.9.0",
     "@windicss/plugin-question-mark": "^0.1.1",
     "cypress": "^10.7.0",
     "eslint": "^8.23.0",
